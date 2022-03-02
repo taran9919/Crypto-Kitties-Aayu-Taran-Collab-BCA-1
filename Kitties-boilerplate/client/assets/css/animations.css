@@ -1,0 +1,109 @@
+.movingHead
+{
+    animation: moveHead 5s infinite;
+}
+.movingEarsRight
+{
+    animation: moveEarsRight 6s infinite;
+}
+.movingEarsLeft
+{
+    animation: moveEarsLeft 6s infinite;
+}
+/* Single Ears Moving */
+.moving-Single-EarRight
+{
+    animation: earRight 3s infinite;
+}
+.moving-Single-EarLeft
+{
+    animation: earLeft 3s infinite;
+}
+.wiggleEar{
+    animation: rotateBackAndForth5 2s infinite;
+}
+.movingTail
+{
+    animation: moveTail 2.5s infinite;
+}
+@keyframes moveTail {
+  0%
+  {
+      transform: rotate(-45deg);
+  }  
+  50%
+  {
+      transform:rotate(-30deg);
+  }
+  100%
+  {
+      transform: rotate(-45deg);
+  }
+}
+@keyframes moveHead {
+    0%, 50%, 100%, 56%, 89%
+    {
+        transform: rotate(0deg);
+    }
+    51%, 55%
+    {
+        transform: rotate(5deg);
+    }
+    0%, 98%
+    {
+        transform: rotate(-5deg);
+    }
+}
+@keyframes moveEarsRight{
+    0%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(5deg);
+    }
+    60%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
+@keyframes moveEarsLeft{
+    0%{
+        transform:scale(-1,1) rotate(0deg);
+    }
+    30%{
+        transform: scale(-1,1)rotate(5deg);
+    }
+    60%{
+        transform: scale(-1,1)rotate(-5deg);
+    }
+    100%{
+        transform: scale(-1,1)rotate(0deg);
+    }
+}
+@keyframes earRight{
+    0%, 50%{
+        transform:rotate(170deg);
+    }
+    51%, 55%{
+        transform:rotate(175deg);
+    }
+    56%, 100%{
+        transform:rotate(170deg);
+    }
+}
+@keyframes rotateBackAndForth5{
+    0%{
+        transform: rotate(0deg);
+    }
+    30%{
+        transform: rotate(5deg);
+    }
+    60%{
+        transform: rotate(-5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}

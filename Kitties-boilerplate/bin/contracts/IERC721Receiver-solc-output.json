@@ -1,0 +1,278 @@
+{
+    "contracts": {
+        "c:/Users/aayum_vuuxn0b/OneDrive/Documents/Kitties-boilerplate/contracts/IERC721Receiver.sol": {
+            "IERC721Receiver": {
+                "abi": [
+                    {
+                        "constant": false,
+                        "inputs": [
+                            {
+                                "internalType": "address",
+                                "name": "operator",
+                                "type": "address"
+                            },
+                            {
+                                "internalType": "address",
+                                "name": "from",
+                                "type": "address"
+                            },
+                            {
+                                "internalType": "uint256",
+                                "name": "tokenId",
+                                "type": "uint256"
+                            },
+                            {
+                                "internalType": "bytes",
+                                "name": "data",
+                                "type": "bytes"
+                            }
+                        ],
+                        "name": "onERC721Received",
+                        "outputs": [
+                            {
+                                "internalType": "bytes4",
+                                "name": "",
+                                "type": "bytes4"
+                            }
+                        ],
+                        "payable": false,
+                        "stateMutability": "nonpayable",
+                        "type": "function"
+                    }
+                ],
+                "devdoc": {
+                    "methods": {}
+                },
+                "evm": {
+                    "bytecode": {
+                        "linkReferences": {},
+                        "object": "",
+                        "opcodes": "",
+                        "sourceMap": ""
+                    },
+                    "deployedBytecode": {
+                        "linkReferences": {},
+                        "object": "",
+                        "opcodes": "",
+                        "sourceMap": ""
+                    },
+                    "gasEstimates": null,
+                    "methodIdentifiers": {
+                        "onERC721Received(address,address,uint256,bytes)": "150b7a02"
+                    }
+                },
+                "metadata": "{\"compiler\":{\"version\":\"0.5.12+commit.7709ece9\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":false,\"inputs\":[{\"internalType\":\"address\",\"name\":\"operator\",\"type\":\"address\"},{\"internalType\":\"address\",\"name\":\"from\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"tokenId\",\"type\":\"uint256\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"}],\"name\":\"onERC721Received\",\"outputs\":[{\"internalType\":\"bytes4\",\"name\":\"\",\"type\":\"bytes4\"}],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/Users/aayum_vuuxn0b/OneDrive/Documents/Kitties-boilerplate/contracts/IERC721Receiver.sol\":\"IERC721Receiver\"},\"evmVersion\":\"petersburg\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/aayum_vuuxn0b/OneDrive/Documents/Kitties-boilerplate/contracts/IERC721Receiver.sol\":{\"keccak256\":\"0x7db69fb5e901f56d4682f5d197365312910b16a310610f63300237e1a3ecdf91\",\"urls\":[\"bzz-raw://0fab81b747f55c7ed1da4f5b2cf794dc367854801022ff434a9fde8493169208\",\"dweb:/ipfs/QmV8ouMduARbVEsFkBvTJ367DWUhqQ41r5deYSqp6WLjc9\"]}},\"version\":1}",
+                "userdoc": {
+                    "methods": {}
+                }
+            }
+        }
+    },
+    "sources": {
+        "c:/Users/aayum_vuuxn0b/OneDrive/Documents/Kitties-boilerplate/contracts/IERC721Receiver.sol": {
+            "ast": {
+                "absolutePath": "c:/Users/aayum_vuuxn0b/OneDrive/Documents/Kitties-boilerplate/contracts/IERC721Receiver.sol",
+                "exportedSymbols": {
+                    "IERC721Receiver": [
+                        15
+                    ]
+                },
+                "id": 16,
+                "nodeType": "SourceUnit",
+                "nodes": [
+                    {
+                        "id": 1,
+                        "literals": [
+                            "solidity",
+                            "^",
+                            "0.5",
+                            ".12"
+                        ],
+                        "nodeType": "PragmaDirective",
+                        "src": "33:24:0"
+                    },
+                    {
+                        "baseContracts": [],
+                        "contractDependencies": [],
+                        "contractKind": "interface",
+                        "documentation": null,
+                        "fullyImplemented": false,
+                        "id": 15,
+                        "linearizedBaseContracts": [
+                            15
+                        ],
+                        "name": "IERC721Receiver",
+                        "nodeType": "ContractDefinition",
+                        "nodes": [
+                            {
+                                "body": null,
+                                "documentation": null,
+                                "id": 14,
+                                "implemented": false,
+                                "kind": "function",
+                                "modifiers": [],
+                                "name": "onERC721Received",
+                                "nodeType": "FunctionDefinition",
+                                "parameters": {
+                                    "id": 10,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [
+                                        {
+                                            "constant": false,
+                                            "id": 3,
+                                            "name": "operator",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 14,
+                                            "src": "118:16:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "default",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            },
+                                            "typeName": {
+                                                "id": 2,
+                                                "name": "address",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "118:7:0",
+                                                "stateMutability": "nonpayable",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                }
+                                            },
+                                            "value": null,
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 5,
+                                            "name": "from",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 14,
+                                            "src": "136:12:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "default",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_address",
+                                                "typeString": "address"
+                                            },
+                                            "typeName": {
+                                                "id": 4,
+                                                "name": "address",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "136:7:0",
+                                                "stateMutability": "nonpayable",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_address",
+                                                    "typeString": "address"
+                                                }
+                                            },
+                                            "value": null,
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 7,
+                                            "name": "tokenId",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 14,
+                                            "src": "150:12:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "default",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_uint256",
+                                                "typeString": "uint256"
+                                            },
+                                            "typeName": {
+                                                "id": 6,
+                                                "name": "uint",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "150:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_uint256",
+                                                    "typeString": "uint256"
+                                                }
+                                            },
+                                            "value": null,
+                                            "visibility": "internal"
+                                        },
+                                        {
+                                            "constant": false,
+                                            "id": 9,
+                                            "name": "data",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 14,
+                                            "src": "163:19:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "calldata",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bytes_calldata_ptr",
+                                                "typeString": "bytes"
+                                            },
+                                            "typeName": {
+                                                "id": 8,
+                                                "name": "bytes",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "163:5:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_bytes_storage_ptr",
+                                                    "typeString": "bytes"
+                                                }
+                                            },
+                                            "value": null,
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "src": "117:66:0"
+                                },
+                                "returnParameters": {
+                                    "id": 13,
+                                    "nodeType": "ParameterList",
+                                    "parameters": [
+                                        {
+                                            "constant": false,
+                                            "id": 12,
+                                            "name": "",
+                                            "nodeType": "VariableDeclaration",
+                                            "scope": 14,
+                                            "src": "202:6:0",
+                                            "stateVariable": false,
+                                            "storageLocation": "default",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bytes4",
+                                                "typeString": "bytes4"
+                                            },
+                                            "typeName": {
+                                                "id": 11,
+                                                "name": "bytes4",
+                                                "nodeType": "ElementaryTypeName",
+                                                "src": "202:6:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_bytes4",
+                                                    "typeString": "bytes4"
+                                                }
+                                            },
+                                            "value": null,
+                                            "visibility": "internal"
+                                        }
+                                    ],
+                                    "src": "201:8:0"
+                                },
+                                "scope": 15,
+                                "src": "92:118:0",
+                                "stateMutability": "nonpayable",
+                                "superFunction": null,
+                                "visibility": "external"
+                            }
+                        ],
+                        "scope": 16,
+                        "src": "59:154:0"
+                    }
+                ],
+                "src": "33:180:0"
+            },
+            "id": 0
+        }
+    }
+}
